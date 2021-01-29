@@ -1,0 +1,6 @@
+LESSONS
+    basics and syntax
+    strings
+    if else loops
+    excersizes
+        password generator
