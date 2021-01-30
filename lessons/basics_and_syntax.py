@@ -2,6 +2,17 @@
 print("Hello World!")
 
 #-----BASICS-----#
+
+# comments work like this
+'''
+this is a hack for
+multi line
+comments
+'''
+# quotes
+# '' or ""
+
+# info about python
 '''
 python
     interpreted, NOT compiled
@@ -16,22 +27,10 @@ data
     hex, 0x lower, 0X upper, 4 bits
     byte, b, B, 8 bits
     various datatypes
-
-
 '''
 
 
 #-----SYNTAX----#
-
-# comments work like this
-'''
-this is a hack for
-multi line
-comments
-'''
-
-# quotes
-# '' or ""
 
 # imports
 import random as rng
@@ -42,6 +41,14 @@ if (5<4):
 
 # variable created when value assigned
 x = 5
+
+#naming conventions
+'''
+snake_case
+MACRO_CASE
+camelCase
+CapWords
+'''
 
 # data types
 '''
@@ -59,9 +66,11 @@ numeric
 
 sequential
     list
-        [] variable size, more useful than tuple
+        [] variable size, more useful than tuple, ordered, indexed
     tuple
-        () fixed size, 
+        () fixed size, ordered, indexed
+    set
+        {} unordered, unindexed
     range
         function that starts at 0, increments by 1 until end
             range(end)
@@ -94,7 +103,7 @@ binary
 
 # random numbers
 
-print(random.randrange(1,10))
+print(rng.randrange(1,10))
 
 # casting
 

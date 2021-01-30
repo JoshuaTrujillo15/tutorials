@@ -32,27 +32,27 @@ if b > a:
     pass
 
 # while
-x = 1
+i = 1
 while i < 6:
     print(i)
     i += 1
 
 # for
 fruits = ["apple", "banana", "cherry"]
-for x in fruits:
-    print(x)
+for i in fruits:
+    print(i)
 
 # for through string
-for x in banana:
-    print(x)
+for i in "banana":
+    print(i)
 
 # range
-for x in range(3):
-    print(x)
+for i in range(3):
+    print(i)
 
 # for else
-for x in range(3):
-    print(x)
+for i in range(3):
+    print(i)
 else: 
     print("loop complete")
 
@@ -80,7 +80,7 @@ while i < 6:
     i += 1
     if i == 3:
         continue
-        print(i)
+    print(i)
 
 # while else
 i = 1

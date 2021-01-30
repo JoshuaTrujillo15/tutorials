@@ -26,5 +26,5 @@ def randomPassword(passwordLen):
     return password
 
 # test function
-# print(randomPassword(7))
+print(randomPassword(7))
 
